@@ -1,0 +1,44 @@
+* {
+  font-family: 'Courgette', cursive;
+}
+.container {
+  position: absolute;
+  width: 100%;
+
+}
+#intro {
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 72px;
+  left: 50%;
+}
+
+/*.dropdown {
+  -ms-transform: rotate(180deg); /IE 9
+    -webkit-transform: rotate(180deg); Chrome, Safari, Opera
+    transform: rotate(180deg);
+}
+*/
+
+.dropdown {
+  position: absolute;
+  vertical-align: middle;
+  left: 47%;
+  display: none;
+}
+
+.fl, .sl, .tl {
+  display: none;
+}
+
+.tl {
+  font-family: "Poiret One", monospace;
+}
+
+.content {
+  position: absolute;
+  font-size: 72px;
+  display: none;
+  left: -100px;
+}
